@@ -31,6 +31,23 @@
 	padding: 1rem;
 }
 
+body {
+	display: flex;
+	flex-direction: row;
+	flex_wrap: wrap;
+}
+
+section#sheet {
+	flex-grow: 3;
+	flex-shrink: 1;
+	flex-basis: 301px;
+}
+
+article {
+	flex-grow: 1;
+	flex-shrink: 3;
+	flex-basis: 180px;
+}
 
 
 
@@ -99,3 +116,4 @@
 	}
 
 }
+
