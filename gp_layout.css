@@ -24,12 +24,7 @@
 
 
 /* Flex Layout Styles */
-.panel-container {
-	display: flex;
-	flex-direction: column;
-	gap: 1rem;
-	padding: 1rem;
-}
+
 
 body {
 	display: flex;
@@ -56,26 +51,6 @@ article {
    ============================================
 */
 
-.panel {
-	width: 100%;
-	display: block;
-}
-
-.size1 {
-	height: 300px;
-}
-
-.size2 {
-	height: 225px;
-}
-
-.size3 {
-	height: 150px;
-}
-
-.size4 {
-	height: 100px;
-}
 
 
 /* ===================================================
@@ -83,37 +58,6 @@ article {
    ===================================================
 */
 
-@media screen and (min-width: 481px) {
-	.panel-container {
-		flex-direction: row;
-		flex-wrap: wrap;
-		justify-content: space-between;
-	}
+@media screen and (min-width: 481px) 
 
-	.panel {
-		display: inline-block;
-		margin-bottom: 1rem;
-	}
-
-	.size1 {
-		flex: 0 0 48%;
-		height: auto;
-	}
-
-	.size2 {
-		flex: 0 0 30%;
-		height: auto;
-	}
-
-	.size3 {
-		flex: 0 0 18%;
-		height: auto;
-	}
-
-	.size4 {
-		flex: 0 0 12%;
-		height: auto;
-	}
-
-}
 
